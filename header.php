@@ -25,34 +25,18 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'realioo' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$realioo_description = get_bloginfo( 'description', 'display' );
-			if ( $realioo_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $realioo_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'realioo' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="<?php get_home_url(); ?>"><?php get_custom_logo(); ?></a>
+		  <!-- The WordPress Primary Menu -->
+		  <?php wp_nav_menu(
+		    array(
+		      'theme_location'    => 'primary-menu',
+		      'menu_class'        => 'navbar-nav ml-auto w-100 justify-content-end',
+		      'container_class'  => 'collapse navbar-collapse',
+		      'container_id'    => 'navbarNav',
+		    )
+		  ); ?>
+		</nav>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
