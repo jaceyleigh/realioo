@@ -25,7 +25,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 ----------------------------------------------------------------
 # Normalize
 # Bootstrap
-# Pages
+# variables
+# Typography
+# global
+# pages
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -37,6 +40,16 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Bootstrap
 --------------------------------------------------------------*/
 @import "assets/bootstrap4";
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
 
 /*--------------------------------------------------------------
 # Global
