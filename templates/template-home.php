@@ -12,7 +12,7 @@ get_header();
 
       <main class="bd-masthead" id="content" role="main">
         <div class="container">
-          <div class="row align-items-center">
+          <div class="row align-items-center pad-100">
             <div class="col-9">
               <h1>Welcome to Realioo, your trusted source for finding a real estate agent</h1>
               <p>
@@ -27,8 +27,8 @@ get_header();
       </main>
 
 			<!-- Address Form -->
-			<section class="module_2 orange-pattern-bg">
-				<div class="container ">
+			<section class="module_2 orange-pattern-bg pad-100">
+				<div class="container">
 					<div class="row ">
 						<div class="col-12 text-center">
 							<h2>Where are you looking to buy or sell?</h2>
@@ -38,7 +38,7 @@ get_header();
 				</div>
 			</section>
 
-			<section class="module_3 purple-bg">
+			<section class="module_3 purple-bg pad-100">
 				<div class="container ">
 					<div class="row">
 						<div class="col-12 text-center">
@@ -50,7 +50,7 @@ get_header();
 			</section>
 
 			<!-- 2 column Icon Grid -->
-			<section class="module_4 icon-grid">
+			<section class="module_4 icon-grid pad-100">
 				<div class="container">
 					<div class="row">
 						<div class="col-6 text-center left-column">
@@ -108,7 +108,7 @@ get_header();
 			</section>
 
 			<!-- testimonials -->
-			<section class="testimonials grey-bg">
+			<section class="testimonials grey-bg pad-100">
 				<div class="container">
 					<div class="row">
 						<div class="col-12 text-center">
