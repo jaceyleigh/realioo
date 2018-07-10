@@ -93,7 +93,7 @@ get_header();
 				</div>
 			</section>
 
-			<section class="module_5 purple-bg">
+			<section class="module_5">
 				<div class="container">
 					<div class="row">
 						<div class="col-12 text-center">

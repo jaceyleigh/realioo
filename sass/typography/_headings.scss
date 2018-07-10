@@ -1,9 +1,28 @@
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: $font__main !important;
 	font-weight: $font-heading-weight;
 }
 
 h1 {
-	font-size: 65px;
+	font-size: 52px;
+	font-family: $font__headings !important;
+}
+
+h2 {
+	font-size: 37px;
+	font-family: $font__main !important;
+}
+
+h3 {
+	font-size: 24px;
+	font-family: $font__main !important;
+}
+
+h4 {
+	font-size: 17px;
+	font-family: $font__main !important;
+}
+
+.bold {
+	font-weight: $semi-bold;
 }

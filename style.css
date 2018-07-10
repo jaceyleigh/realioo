@@ -40,6 +40,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600");
 html {
   line-height: 1.15;
   /* 1 */
@@ -7215,7 +7216,7 @@ select,
 optgroup,
 textarea {
   color: #404040;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5; }
 
 text-center {
@@ -7223,11 +7224,26 @@ text-center {
 
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "Ubuntu", sans-serif !important;
   font-weight: 300; }
 
 h1 {
-  font-size: 65px; }
+  font-size: 52px;
+  font-family: "Ubuntu", sans-serif !important; }
+
+h2 {
+  font-size: 37px;
+  font-family: "Open Sans", sans-serif !important; }
+
+h3 {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif !important; }
+
+h4 {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif !important; }
+
+.bold {
+  font-weight: 600; }
 
 p {
   margin-bottom: 1.5em; }
@@ -7274,6 +7290,11 @@ big {
 .purple-bg {
   background: #201e3c;
   color: #fff; }
+
+.gradient {
+  background: #e01952;
+  background: -webkit-gradient(linear, left bottom, left top, from(#e01952), color-stop(38%, #e02d46), to(#e04c33));
+  background: linear-gradient(0deg, #e01952 0%, #e02d46 38%, #e04c33 100%); }
 
 .pad-100 {
   padding-top: 100px;
