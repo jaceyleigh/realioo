@@ -5,11 +5,17 @@
 }
 
 .purple-bg {
-  background: $dark-purple;
+  background: $realioo_purple;
   color: $white;
 }
 
 .gradient {
   background: rgb(224,25,82);
   background: linear-gradient(0deg, rgba(224,25,82,1) 0%, rgba(224,45,70,1) 38%, rgba(224,76,51,1) 100%);
+}
+
+.map-bg {
+  color: $white;
+  background: $realioo_orange url("/wp-content/themes/realioo/images/global/map-background.jpg") no-repeat 100%;
+  background-size: cover;
 }

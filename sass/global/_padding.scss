@@ -1,4 +1,32 @@
+.pad-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .pad-100 {
   padding-top: 100px;
-  padding-bottom: 100px;  
+  padding-bottom: 100px;
+}
+
+
+// single direction - top
+
+.pad-50-top {
+  padding-top: 50px;
+}
+
+.pad-100-top {
+  padding-top: 100px;
+}
+
+
+
+// single direction - bottom
+
+.pad-50-bottom {
+  padding-bottom: 50px;
+}
+
+.pad-100-bottom {
+  padding-bottom: 100px;
 }

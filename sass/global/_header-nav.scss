@@ -1,3 +1,26 @@
+
+.header {
+  border-bottom: 1px solid $light-grey;
+}
+.navbar-brand {
+  img {
+    max-width: 115px;
+  }
+}
 .navbar-nav li {
     margin: 0 20px;
+}
+
+//specific to the Landing Page
+
+.nav-text {
+  color: $realioo_orange;
+  font-size: 14px;
+  p {
+    margin: 0 20px 0 0;
+    float: left;
+  }
+  a {
+    color: $realioo_orange;
+  }
 }

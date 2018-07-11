@@ -13,14 +13,14 @@ get_header();
       <main class="bd-masthead" id="content" role="main">
         <div class="container">
           <div class="row align-items-center pad-100">
-            <div class="col-9">
+            <div class="col-8">
               <h1>Welcome to Realioo, your trusted source for finding a real estate agent</h1>
               <p>
                 With Realioo you can put your mind at ease. Simply tell us where you're looking to buy or sell and we'll match you with the top performing agent.
               </p>
             </div>
-						<div class="col-3">
-							<img class="img-fluid" src="http://placehold.it/300x300">
+						<div class="col-4">
+							<img class="img-fluid" src="/wp-content/themes/realioo/images/landing-page/hero-characters.png">
 						</div>
           </div>
         </div>

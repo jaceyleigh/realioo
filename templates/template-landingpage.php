@@ -7,29 +7,29 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area landing-page">
 		<main id="main" class="site-main">
 
-      <main class="bd-masthead" id="content" role="main">
+      <section class="hero bd-masthead" id="content" role="main">
         <div class="container">
-          <div class="row align-items-center pad-100">
-            <div class="col-9">
+          <div class="row align-items-center pad-50-top">
+            <div class="col-7">
               <h1>Maximize the sale price of your home.</h1>
               <h3>Selling your home for top dollar requires years of real estate experience and tough negotiating tactics. Lucky for you, we’ve found all the top sellers in your neighborhood.</h3>
             </div>
-						<div class="col-3">
-							<img class="img-fluid" src="http://placehold.it/300x300">
+						<div class="col-5">
+							<img class="img-fluid" src="/wp-content/themes/realioo/images/landing-page/hero-characters.png">
 						</div>
           </div>
         </div>
-      </main>
+      </section>
 
 			<!-- Address Form -->
-			<section class="module_2 orange-pattern-bg pad-100">
+			<section class="module_2 map-bg pad-100">
 				<div class="container">
 					<div class="row ">
 						<div class="col-12 text-center">
-							<h2>Find the top realtor in your neighborhood</h2>
+							<h2 class="pad-50-bottom">Find the top realtor in your neighborhood</h2>
 							<?php echo do_shortcode( '[contact-form-7 id="28" title="Test"]' ); ?>
 						</div>
 					</div>
@@ -40,7 +40,7 @@ get_header();
 				<div class="container ">
 					<div class="row">
 						<div class="col-12 text-center">
-							<h1>Why work with a specialized realtor?</h1>
+							<h1 class="pad-50-bottom">Why work with a specialized realtor?</h1>
 							<h3>Working with an agent that specializes in your home-type, price point, and neighborhood is critical to getting you top dollar.</h3>
 						</div>
 					</div>
