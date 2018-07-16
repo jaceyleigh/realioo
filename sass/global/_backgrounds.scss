@@ -1,12 +1,13 @@
 
 .grey-bg {
   background: $light-grey;
-  color: $grey-text;
 }
 
 .purple-bg {
   background: $realioo_purple;
-  color: $white;
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+  }
 }
 
 .gradient {
@@ -15,7 +16,13 @@
 }
 
 .map-bg {
-  color: $white;
   background: $realioo_orange url("/wp-content/themes/realioo/images/global/map-background.jpg") no-repeat 100%;
   background-size: cover;
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+  }
+}
+
+.green-shading {
+  background: $realioo_green;
 }

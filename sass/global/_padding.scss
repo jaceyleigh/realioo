@@ -1,6 +1,16 @@
+.pad-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .pad-50 {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.pad-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .pad-100 {
@@ -11,9 +21,18 @@
 
 // single direction - top
 
+.pad-30-top {
+  padding-top: 30px;
+}
+
 .pad-50-top {
   padding-top: 50px;
 }
+
+.pad-70-top {
+  padding-top: 70px;
+}
+
 
 .pad-100-top {
   padding-top: 100px;
@@ -23,8 +42,16 @@
 
 // single direction - bottom
 
+.pad-30-bottom {
+  padding-bottom: 30px;
+}
+
 .pad-50-bottom {
   padding-bottom: 50px;
+}
+
+.pad-70-bottom {
+  padding-bottom: 70px;
 }
 
 .pad-100-bottom {

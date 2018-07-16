@@ -28,9 +28,9 @@ get_header();
 			<section class="module_2 map-bg pad-100">
 				<div class="container">
 					<div class="row ">
-						<div class="col-12 text-center">
-							<h2 class="pad-50-bottom">Find the top realtor in your neighborhood</h2>
-							<?php echo do_shortcode( '[contact-form-7 id="28" title="Test"]' ); ?>
+						<div class="col-12">
+							<h2 class="pad-50-bottom text-center">Find the top realtor in your neighborhood</h2>
+							<?php echo do_shortcode( '[contact-form-7 id="316" title="Landing Page Contact Form"]' ); ?>
 						</div>
 					</div>
 				</div>
@@ -41,79 +41,83 @@ get_header();
 					<div class="row">
 						<div class="col-12 text-center">
 							<h1 class="pad-50-bottom">Why work with a specialized realtor?</h1>
-							<h3>Working with an agent that specializes in your home-type, price point, and neighborhood is critical to getting you top dollar.</h3>
+							<h3>Working with a real estate agent that specializes in your home-type, price point, and neighborhood is critical to getting you top dollar.</h3>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="module_5">
+			<section class="module_5 pad-100">
 				<div class="container">
 					<div class="row">
 						<div class="col-12 text-center">
 							<h1>See the difference</h1>
-							<h3>Not all realtors are the same and percentages amount to thousands of dollars in a home sale.</h3>
+							<h3 class="pad-30">Not all realtors are the same and percentages amount to thousands of dollars in a home sale.</h3>
 							<h2 class="bold">See the Realioo Difference for Yourself.</h2>
 						</div>
 					</div>
-					<div class="pricing-columns text-center">
+					<div class="pricing-columns text-center pad-30-top">
 						<!-- point 1 -->
-						<p>List Price</p>
-						<div class="row">
-							<div class="col-6">
-								<p>$250,000</p>
-							</div>
-							<div class="col-6">
-								<p>$500,000</p>
+						<div class="point pad-30">
+							<h3>List Price</h3>
+							<div class="row">
+								<div class="col-6">
+									<h2>$250,000</h2>
+								</div>
+								<div class="col-6">
+									<h2>$500,000</h2>
+								</div>
 							</div>
 						</div>
 						<!-- point 2 -->
-						<p>Sold with an average agent gets you <b>98%</b> list price</p>
-						<div class="row">
-							<div class="col-6">
-								<p>$245,000</p>
-							</div>
-							<div class="col-6">
-								<p>$490,000</p>
+						<div class="point pad-30">
+							<h3>Average agents get <b>98%</b> of list price</h3>
+							<div class="row">
+								<div class="col-6">
+									<h2>$245,000</h2>
+								</div>
+								<div class="col-6">
+									<h2>$490,000</h2>
+								</div>
 							</div>
 						</div>
 						<!-- point 3 -->
-						<p>Sold with a Realioo agent gets you <b>103%</b> list price</p>
-						<div class="row">
-							<div class="col-6">
-								<p>$257,000</p>
-							</div>
-							<div class="col-6">
-								<p>$515,000</p>
+						<div class="point pad-30">
+								<h3>SPECIALIZED agents get <b>103%</b> list price</h3>
+							<div class="row">
+								<div class="col-6">
+									<h2>$257,000</h2>
+								</div>
+								<div class="col-6">
+									<h2>$515,000</h2>
+								</div>
 							</div>
 						</div>
 						<!-- point 4 -->
-						<p>Money in Your Pocket</p>
-						<div class="row">
-							<div class="col-6">
-								<p>$12,500</p>
-							</div>
-							<div class="col-6">
-								<p>$25,000</p>
+						<div class="point green-shading pad-30">
+							<h3 class="bold">Money in your pocket</h3>
+							<div class="row">
+								<div class="col-6">
+									<h2 class="bold">$12,500</h2>
+								</div>
+								<div class="col-6">
+									<h2 class="bold">$25,000</h2>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="form">
-						<h2>Where is Your Home Located?</h2>
-						<?php echo do_shortcode( '[contact-form-7 id="28" title="Test"]' ); ?>
-					</div>
 				</div>
-
 			</section>
-
-
 
 			<!-- testimonials -->
 			<section class="testimonials grey-bg pad-100">
 				<div class="container">
 					<div class="row">
 						<div class="col-12 text-center">
-							A quote
+							<h3>"We sold our home for thousands of dollars more compared to the other homes in our neighborhood using the agent Realioo connected us with. He was truly a neighborhood expert when it came to his pricing strategy."</h3>
+							<p class="quote-attribute">
+								— David
+							</p>
 						</div>
 					</div>
 				</div>

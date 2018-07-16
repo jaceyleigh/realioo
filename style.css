@@ -6695,9 +6695,13 @@ textarea {
 text-center {
   text-align: center; }
 
+p {
+  color: #6d6e70; }
+
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-weight: 300; }
+  font-weight: 300;
+  color: #6d6e70; }
 
 h1 {
   font-size: 52px;
@@ -6759,12 +6763,12 @@ big {
 # Global
 --------------------------------------------------------------*/
 .grey-bg {
-  background: #f0eeed;
-  color: #6d6e70; }
+  background: #f0eeed; }
 
 .purple-bg {
-  background: #201e3c;
-  color: #fff; }
+  background: #201e3c; }
+  .purple-bg h1, .purple-bg h2, .purple-bg h3, .purple-bg h4, .purple-bg h5, .purple-bg h6 {
+    color: #fff; }
 
 .gradient {
   background: #e01952;
@@ -6772,26 +6776,50 @@ big {
   background: linear-gradient(0deg, #e01952 0%, #e02d46 38%, #e04c33 100%); }
 
 .map-bg {
-  color: #fff;
   background: #E04C33 url("/wp-content/themes/realioo/images/global/map-background.jpg") no-repeat 100%;
   background-size: cover; }
+  .map-bg h1, .map-bg h2, .map-bg h3, .map-bg h4, .map-bg h5, .map-bg h6 {
+    color: #fff; }
+
+.green-shading {
+  background: #B9E0CE; }
+
+.pad-30 {
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .pad-50 {
   padding-top: 50px;
   padding-bottom: 50px; }
 
+.pad-70 {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
 .pad-100 {
   padding-top: 100px;
   padding-bottom: 100px; }
 
+.pad-30-top {
+  padding-top: 30px; }
+
 .pad-50-top {
   padding-top: 50px; }
+
+.pad-70-top {
+  padding-top: 70px; }
 
 .pad-100-top {
   padding-top: 100px; }
 
+.pad-30-bottom {
+  padding-bottom: 30px; }
+
 .pad-50-bottom {
   padding-bottom: 50px; }
+
+.pad-70-bottom {
+  padding-bottom: 70px; }
 
 .pad-100-bottom {
   padding-bottom: 100px; }
@@ -6806,13 +6834,17 @@ big {
   margin: 0 20px; }
 
 .nav-text {
-  color: #E04C33;
   font-size: 14px; }
   .nav-text p {
     margin: 0 20px 0 0;
+    color: #E04C33;
     float: left; }
   .nav-text a {
     color: #E04C33; }
+
+.site-footer img {
+  display: block;
+  margin: 0 auto; }
 
 /*--------------------------------------------------------------
 # pages
@@ -6825,3 +6857,50 @@ big {
 
 .landing-page .hero h3 {
   color: #6d6e70; }
+
+.landing-page .wpcf7 {
+  font-size: 24px; }
+  .landing-page .wpcf7 label {
+    color: #fff;
+    font-size: 18px; }
+  .landing-page .wpcf7 input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 5px 14px;
+    font-weight: 100;
+    color: #fff; }
+    .landing-page .wpcf7 input.wpcf7-form-control.wpcf7-submit {
+      display: block;
+      margin: 0 auto;
+      background: #201e3c;
+      padding: 7px 80px;
+      max-width: 400px;
+      font-weight: 300; }
+    .landing-page .wpcf7 input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #fff; }
+    .landing-page .wpcf7 input::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #fff; }
+    .landing-page .wpcf7 input:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #fff; }
+    .landing-page .wpcf7 input:-moz-placeholder {
+      /* Firefox 18- */
+      color: #fff; }
+  .landing-page .wpcf7 .wpcf7-validation-errors,
+  .landing-page .wpcf7 .wpcf7-acceptance-missing {
+    display: none !important; }
+  .landing-page .wpcf7 span.wpcf7-not-valid-tip {
+    font-size: 16px;
+    color: #201e3c; }
+
+.landing-page .module_5 .container {
+  max-width: 730px; }
+
+.landing-page .module_5 .pricing-columns .point {
+  border-bottom: 2px solid #6d6e70; }
+
+.landing-page .testimonials h3 {
+  font-style: italic; }
