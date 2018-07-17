@@ -13,11 +13,11 @@ get_header();
       <section class="hero bd-masthead" id="content" role="main">
         <div class="container">
           <div class="row align-items-center pad-50-top">
-            <div class="col-7">
+            <div class="col-md-7">
               <h1>Maximize the sale price of your home.</h1>
               <h3>Selling your home for top dollar requires years of real estate experience and tough negotiating tactics. Lucky for you, we’ve found all the top sellers in your neighborhood.</h3>
             </div>
-						<div class="col-5">
+						<div class="col-md-5">
 							<img class="img-fluid" src="/wp-content/themes/realioo/images/landing-page/hero-characters.png">
 						</div>
           </div>

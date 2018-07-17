@@ -7,12 +7,22 @@
     h3 {
       color: $grey-text;
     }
+    img {
+      @media (max-width: breakpoint-min(md)) {
+        display: block;
+        margin: 0 auto;
+        padding-top: 30px;
+      }
+    }
   }
 
   //also might be Global
 
   .wpcf7 {
     font-size: 24px;
+    @media (max-width: breakpoint-min(sm)) {
+  		font-size: 17px;
+  	}
     label {
       color: $white;
       font-size: 18px;
@@ -28,7 +38,7 @@
       display: block;
       margin: 0 auto;
       background: $realioo_purple;
-      padding: 7px 80px;
+      padding: 7px 0px;
       max-width: 400px;
       font-weight: 300;
       }
@@ -52,7 +62,7 @@
 
     span.wpcf7-not-valid-tip {
       font-size: 14px;
-      padding-top: 5px
+      padding-top: 5px;
       color: $realioo_purple;
     }
   }

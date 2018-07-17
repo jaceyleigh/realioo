@@ -27,7 +27,7 @@
 	<header id="masthead" class="site-header">
 		<nav class="navbar navbar-expand-lg container">
 			<a class="navbar-brand" href="<?php echo get_home_url(); ?>"><img src="/wp-content/themes/realioo/images/global/realioo_logo.png"/></a>
-			<div class="nav-text ml-auto justify-content-end bold">
+			<div class="navbar-text ml-auto justify-content-end bold">
 				<p>Connect with Us Today</p>
 				<a class="phone-number" href="tel:6124811394">612-481-1394</a>
 			</div>
