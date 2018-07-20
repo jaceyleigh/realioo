@@ -2,3 +2,39 @@
 @import "padding";
 @import "header-nav";
 @import "footer";
+@import "forms";
+
+//pricing graphic
+.pricing-columns {
+  .point{
+    border-bottom: 2px solid $grey-text;
+  }
+}
+
+// Testimonials
+.testimonials{
+  h3 {
+    font-style: italic;
+  }
+  .tab_active {
+    display: block !important;
+  }
+  .tab_content {
+    display: none;
+  }
+  #tabs1 {
+    display: block;
+    margin: 0 auto;
+    a {
+      width: 14px;
+      height: 14px;
+      background-color: $white;
+      border-radius: 14px;
+      display: inline-block;
+      margin: 0 4px;
+      &.active {
+        background-color: $realioo_green;
+      }
+    }
+  }
+}

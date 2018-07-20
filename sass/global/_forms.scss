@@ -1,0 +1,73 @@
+.wpcf7 {
+  font-size: 24px;
+  @media (max-width: breakpoint-min(sm)) {
+    font-size: 17px;
+  }
+  label {
+    color: $white;
+    font-size: 18px;
+  }
+  input {
+    width: 100%;
+    background: rgba(255, 255, 255, .3);
+    border: none;
+    padding: 5px 14px;
+    font-weight: 100;
+    color: $white;
+    &.wpcf7-form-control.wpcf7-submit {
+      display: block;
+      margin: 0 auto;
+      background: $realioo_purple;
+      padding: 7px 0px;
+      max-width: 400px;
+      font-weight: 300;
+      &:hover {
+        background: rgba(32, 30, 60, .8);
+        cursor: pointer;
+      }
+    }
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: $white;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: $white;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: $white;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: $white;
+    }
+  }
+  .wpcf7-validation-errors,
+  .wpcf7-acceptance-missing {
+    display: none !important
+  }
+
+  span.wpcf7-not-valid-tip {
+    font-size: 14px;
+    padding-top: 5px;
+    color: $realioo_purple;
+  }
+  form {
+    .success-message {
+      display: none;
+      text-align: center;
+    }
+    &.sent {
+      .row {
+        display: none;
+      }
+      .wpcf7-submit {
+        display: none;
+      }
+      .success-message {
+        display: block;
+      }
+    }
+  }
+}
+
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+    display: none !important;
+}

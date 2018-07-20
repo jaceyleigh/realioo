@@ -6788,7 +6788,7 @@ big {
 .map-bg {
   background: #E04C33 url("/wp-content/themes/realioo/images/global/map-background.jpg") no-repeat 100%;
   background-size: cover; }
-  .map-bg h1, .map-bg h2, .map-bg h3, .map-bg h4, .map-bg h5, .map-bg h6 {
+  .map-bg h1, .map-bg h2, .map-bg h3, .map-bg h4, .map-bg h5, .map-bg h6, .map-bg p {
     color: #fff; }
 
 .green-shading {
@@ -6866,27 +6866,125 @@ big {
     .pad-100-bottom {
       padding-bottom: 70px; } }
 
-.header {
+.site-header {
   border-bottom: 1px solid #f0eeed; }
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    display: block;
+    margin: 0 auto;
+    width: 100%; } }
 
 .navbar-brand img {
   max-width: 115px; }
+  @media (max-width: 480px) {
+    .navbar-brand img {
+      display: block;
+      margin: 0 auto; } }
 
 .navbar-nav li {
   margin: 0 20px; }
 
 .navbar-text {
   font-size: 14px; }
+  @media (max-width: 480px) {
+    .navbar-text {
+      margin: 0 auto; } }
   .navbar-text p {
-    margin: 0 20px 0 0;
+    margin: 0 10px 0 0;
     color: #E04C33;
     float: left; }
+  .navbar-text img {
+    max-width: 10px; }
   .navbar-text a {
     color: #E04C33; }
 
 .site-footer img {
   display: block;
+  margin: 0 auto;
+  max-width: 200px; }
+
+.wpcf7 {
+  font-size: 24px; }
+  @media (max-width: 576px) {
+    .wpcf7 {
+      font-size: 17px; } }
+  .wpcf7 label {
+    color: #fff;
+    font-size: 18px; }
+  .wpcf7 input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 5px 14px;
+    font-weight: 100;
+    color: #fff; }
+    .wpcf7 input.wpcf7-form-control.wpcf7-submit {
+      display: block;
+      margin: 0 auto;
+      background: #201e3c;
+      padding: 7px 0px;
+      max-width: 400px;
+      font-weight: 300; }
+      .wpcf7 input.wpcf7-form-control.wpcf7-submit:hover {
+        background: rgba(32, 30, 60, 0.8);
+        cursor: pointer; }
+    .wpcf7 input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #fff; }
+    .wpcf7 input::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #fff; }
+    .wpcf7 input:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #fff; }
+    .wpcf7 input:-moz-placeholder {
+      /* Firefox 18- */
+      color: #fff; }
+  .wpcf7 .wpcf7-validation-errors,
+  .wpcf7 .wpcf7-acceptance-missing {
+    display: none !important; }
+  .wpcf7 span.wpcf7-not-valid-tip {
+    font-size: 14px;
+    padding-top: 5px;
+    color: #201e3c; }
+  .wpcf7 form .success-message {
+    display: none;
+    text-align: center; }
+  .wpcf7 form.sent .row {
+    display: none; }
+  .wpcf7 form.sent .wpcf7-submit {
+    display: none; }
+  .wpcf7 form.sent .success-message {
+    display: block; }
+
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+  display: none !important; }
+
+.pricing-columns .point {
+  border-bottom: 2px solid #6d6e70; }
+
+.testimonials h3 {
+  font-style: italic; }
+
+.testimonials .tab_active {
+  display: block !important; }
+
+.testimonials .tab_content {
+  display: none; }
+
+.testimonials #tabs1 {
+  display: block;
   margin: 0 auto; }
+  .testimonials #tabs1 a {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 14px;
+    display: inline-block;
+    margin: 0 4px; }
+    .testimonials #tabs1 a.active {
+      background-color: #B9E0CE; }
 
 /*--------------------------------------------------------------
 # pages
@@ -6906,53 +7004,14 @@ big {
     margin: 0 auto;
     padding-top: 30px; } }
 
-.landing-page .wpcf7 {
-  font-size: 24px; }
-  @media (max-width: 576px) {
-    .landing-page .wpcf7 {
-      font-size: 17px; } }
-  .landing-page .wpcf7 label {
-    color: #fff;
-    font-size: 18px; }
-  .landing-page .wpcf7 input {
-    width: 100%;
-    background: rgba(255, 255, 255, 0.3);
-    border: none;
-    padding: 5px 14px;
-    font-weight: 100;
-    color: #fff; }
-    .landing-page .wpcf7 input.wpcf7-form-control.wpcf7-submit {
-      display: block;
-      margin: 0 auto;
-      background: #201e3c;
-      padding: 7px 0px;
-      max-width: 400px;
-      font-weight: 300; }
-    .landing-page .wpcf7 input::-webkit-input-placeholder {
-      /* Chrome/Opera/Safari */
-      color: #fff; }
-    .landing-page .wpcf7 input::-moz-placeholder {
-      /* Firefox 19+ */
-      color: #fff; }
-    .landing-page .wpcf7 input:-ms-input-placeholder {
-      /* IE 10+ */
-      color: #fff; }
-    .landing-page .wpcf7 input:-moz-placeholder {
-      /* Firefox 18- */
-      color: #fff; }
-  .landing-page .wpcf7 .wpcf7-validation-errors,
-  .landing-page .wpcf7 .wpcf7-acceptance-missing {
-    display: none !important; }
-  .landing-page .wpcf7 span.wpcf7-not-valid-tip {
-    font-size: 14px;
-    padding-top: 5px;
-    color: #201e3c; }
-
 .landing-page .module_5 .container {
   max-width: 730px; }
 
-.landing-page .module_5 .pricing-columns .point {
-  border-bottom: 2px solid #6d6e70; }
+.sellers-page .icon-grid img {
+  max-width: 100px; }
 
-.landing-page .testimonials h3 {
-  font-style: italic; }
+.sellers-page .icon-grid h4 {
+  padding-top: 18px; }
+
+.sellers-page .module_5 .container {
+  max-width: 730px; }
