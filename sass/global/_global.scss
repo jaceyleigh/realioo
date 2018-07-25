@@ -4,6 +4,23 @@
 @import "footer";
 @import "forms";
 
+//Hero image
+.hero {
+  h1 {
+    color: $realioo_purple;
+  }
+  h3 {
+    color: $grey-text;
+  }
+  img {
+    @media (max-width: breakpoint-min(md)) {
+      display: block;
+      margin: 0 auto;
+      padding-top: 30px;
+    }
+  }
+}
+
 //pricing graphic
 .pricing-columns {
   .point{

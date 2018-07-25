@@ -6941,13 +6941,18 @@ big {
     .wpcf7 input:-moz-placeholder {
       /* Firefox 18- */
       color: #fff; }
+    .wpcf7 input.wpcf7-not-valid {
+      border-bottom: 5px solid #ffc107; }
   .wpcf7 .wpcf7-validation-errors,
   .wpcf7 .wpcf7-acceptance-missing {
     display: none !important; }
+  .wpcf7 .ajax-loader {
+    display: none !important; }
   .wpcf7 span.wpcf7-not-valid-tip {
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 5px;
-    color: #201e3c; }
+    color: #ffc107;
+    font-weight: bold; }
   .wpcf7 form .success-message {
     display: none;
     text-align: center; }
@@ -6960,6 +6965,18 @@ big {
 
 .wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
   display: none !important; }
+
+.hero h1 {
+  color: #201e3c; }
+
+.hero h3 {
+  color: #6d6e70; }
+
+@media (max-width: 768px) {
+  .hero img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px; } }
 
 .pricing-columns .point {
   border-bottom: 2px solid #6d6e70; }
@@ -7007,6 +7024,9 @@ big {
 .landing-page .module_5 .container {
   max-width: 730px; }
 
+.sellers-page .hero h1 {
+  max-width: 510px; }
+
 .sellers-page .icon-grid img {
   max-width: 100px; }
 
@@ -7015,3 +7035,15 @@ big {
 
 .sellers-page .module_5 .container {
   max-width: 730px; }
+
+.buyers-page .icon-grid img {
+  max-width: 100px; }
+
+.buyers-page .icon-grid h4 {
+  padding-top: 18px; }
+
+.buyers-page .module_5 .icon-grid img {
+  max-width: 200px; }
+
+.buyers-page .module_5 .icon-grid h3 {
+  padding: 30px 20px 0 20px; }

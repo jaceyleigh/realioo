@@ -38,16 +38,23 @@
     &:-moz-placeholder { /* Firefox 18- */
       color: $white;
     }
+    &.wpcf7-not-valid {
+      border-bottom: 5px solid $warning;
+    }
   }
   .wpcf7-validation-errors,
   .wpcf7-acceptance-missing {
     display: none !important
   }
+  .ajax-loader {
+    display: none !important;
+  }
 
   span.wpcf7-not-valid-tip {
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 5px;
-    color: $realioo_purple;
+    color: $warning;
+    font-weight: bold
   }
   form {
     .success-message {

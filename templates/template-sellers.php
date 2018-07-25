@@ -18,7 +18,7 @@ get_header();
               <h3>Selling your home for top dollar requires years of real estate experience and tough negotiating tactics. Lucky for you, we’ve found all the top sellers in your neighborhood.</h3>
             </div>
 						<div class="col-md-5">
-							<img class="img-fluid" src="/wp-content/themes/realioo/images/landing-page/hero-characters.png">
+							<img class="img-fluid" src="/wp-content/themes/realioo/images/sellers/sellers-hero-characters.png">
 						</div>
           </div>
         </div>
@@ -29,9 +29,8 @@ get_header();
 				<div class="container">
 					<div class="row ">
 						<div class="col-12">
-							<h2 class="pad-50-bottom text-center">Find the top realtor in your neighborhood</h2>
+							<h2 class="pad-50-bottom text-center">Where are you looking to buy?</h2>
 							<!-- other type of form gets inserted here -->
-							<?php echo do_shortcode( '[contact-form-7 id="316" title="Landing Page Contact Form"]' ); ?>
 						</div>
 					</div>
 				</div>
@@ -89,7 +88,7 @@ get_header();
 					<div class="row">
 						<div class="col-12 text-center">
 							<h1 class="pad-50-bottom">Why work with a specialized realtor?</h1>
-							<h3>Some realtors are good at high-dollar sales, while other niche in condominiums. Working with an agent that specializes in your home-type, price point, and neighborhood is critical to getting you top dollar.</h3>
+							<h3>Some realtors are good at high-dollar sales, while others niche in condominiums. Working with an agent that specializes in your home-type, price point, and neighborhood is critical to getting you top dollar.</h3>
 						</div>
 					</div>
 				</div>
@@ -154,6 +153,7 @@ get_header();
 							</div>
 						</div>
 					</div>
+					<h2 class="text-center pad-50-top">Where is Your Home Located?</h2>
 					<!-- other type of form gets inserted here -->
 				</div>
 			</section>

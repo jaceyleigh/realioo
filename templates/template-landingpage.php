@@ -51,7 +51,7 @@ get_header();
 				<div class="container">
 					<div class="row">
 						<div class="col-12 text-center">
-							<h1>See the difference</h1>
+							<h1>Not all realtors are the same</h1>
 							<h3 class="pad-30">Not all realtors are the same and percentages amount to thousands of dollars in a home sale.</h3>
 							<h2 class="bold">See the Realioo Difference for Yourself.</h2>
 						</div>
