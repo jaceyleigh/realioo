@@ -1,0 +1,18 @@
+.form-page {
+  input.wpcf7-form-control {
+    border: 1px solid $light-grey;
+    padding: 4px 15px;
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: $grey-text;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: $grey-text;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: $grey-text;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: $grey-text;
+    }
+  }
+}

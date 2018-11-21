@@ -1,0 +1,41 @@
+
+.about-page {
+  .equation-graphic {
+    .col-sm-2 {
+      padding: 0;
+    }
+    p {
+      font-size: 20px;
+      color: $white;
+      margin: 8px 0 0 0;
+      &.pink {
+        color: $realioo_pink;
+      }
+    }
+    span {
+      font-size: 50px;
+      color: $white;
+    }
+  }
+  .module_4 {
+    background: url('/wp-content/themes/realioo/images/about/handshake.png') no-repeat center $light-grey;
+  }
+  .contact-form {
+    input.wpcf7-form-control {
+      border: 1px solid $light-grey;
+      padding: 4px 15px;
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: $grey-text;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: $grey-text;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: $grey-text;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: $grey-text;
+      }
+    }
+  }
+}

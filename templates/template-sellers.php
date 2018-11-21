@@ -29,8 +29,8 @@ get_header();
 				<div class="container">
 					<div class="row ">
 						<div class="col-12">
-							<h2 class="pad-50-bottom text-center">Where are you looking to buy?</h2>
-							<!-- other type of form gets inserted here -->
+							<h2 class="pad-50-bottom text-center">Where are you looking to sell?</h2>
+							<?php echo do_shortcode( '[contact-form-7 id="334" title="Sellers Page Contact Form"]' ); ?>
 						</div>
 					</div>
 				</div>
@@ -46,17 +46,17 @@ get_header();
 					</div>
 					<!-- top row -->
 					<div class="row icon-grid text-center">
-						<div class="col-4">
+						<div class="col-md-4">
 							<img src="/wp-content/themes/realioo/images/sellers/neighborhood-icon.png" />
 							<h4>Neighborhood Experience</h4>
 							<p>How long has the agent been working in your neighborhood?</p>
 						</div>
-						<div class="col-4">
+						<div class="col-md-4">
 							<img src="/wp-content/themes/realioo/images/sellers/sales-icon.png" />
 							<h4>Total Sales Volume</h4>
 							<p>How many homes have they sold in the area compared to other competing agents?</p>
 						</div>
-						<div class="col-4">
+						<div class="col-md-4">
 							<img src="/wp-content/themes/realioo/images/sellers/price-icon.png" />
 							<h4>Sales Price Compared to List Price</h4>
 							<p>Is the agent getting more, less, or exactly the asking price?</p>
@@ -64,17 +64,17 @@ get_header();
 					</div>
 					<!-- bottom row -->
 					<div class="row icon-grid text-center">
-						<div class="col-4">
+						<div class="col-md-4">
 							<img src="/wp-content/themes/realioo/images/sellers/time-icon.png" />
 							<h4>Time-on-market</h4>
 							<p>How long do the homes they list sit on the market?</p>
 						</div>
-						<div class="col-4">
+						<div class="col-md-4">
 							<img src="/wp-content/themes/realioo/images/sellers/range-icon.png" />
 							<h4>Price Range</h4>
 							<p>Does the realtor specialize in your price point?</p>
 						</div>
-						<div class="col-4">
+						<div class="col-md-4">
 							<img src="/wp-content/themes/realioo/images/sellers/house-icon.png" />
 							<h4>Housing Type</h4>
 							<p>Does the agent specialize in selling your type of home (single family, townhouse, condo)?</p>
@@ -88,7 +88,7 @@ get_header();
 					<div class="row">
 						<div class="col-12 text-center">
 							<h1 class="pad-50-bottom">Why work with a specialized realtor?</h1>
-							<h3>Some realtors are good at high-dollar sales, while others niche in condominiums. Working with an agent that specializes in your home-type, price point, and neighborhood is critical to getting you top dollar.</h3>
+							<h3>Some realtors are good at high-dollar sales, while other niche in condominiums. Working with an agent that specializes in your home-type, price point, and neighborhood is critical to getting you top dollar.</h3>
 						</div>
 					</div>
 				</div>

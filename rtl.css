@@ -6780,6 +6780,11 @@ big {
   .purple-bg h1, .purple-bg h2, .purple-bg h3, .purple-bg h4, .purple-bg h5, .purple-bg h6 {
     color: #fff; }
 
+.white-bg {
+  background: #fff; }
+  .white-bg h1, .white-bg h2, .white-bg h3, .white-bg h4, .white-bg h5, .white-bg h6, .white-bg p, .white-bg label {
+    color: #201e3c !important; }
+
 .gradient {
   background: #e01952;
   background: -webkit-gradient(linear, right bottom, right top, from(#e01952), color-stop(38%, #e02d46), to(#e04c33));
@@ -6882,8 +6887,24 @@ big {
       display: block;
       margin: 0 auto; } }
 
-.navbar-nav li {
-  margin: 0 20px; }
+.menu-primary-container ul {
+  list-style: none;
+  padding: 0; }
+
+.menu-primary-container li {
+  float: right;
+  margin: 0 10px; }
+  .menu-primary-container li.current_page_item a {
+    color: #201e3c; }
+  .menu-primary-container li a {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #E04C33; }
+    .menu-primary-container li a:hover {
+      text-decoration: none;
+      color: #201e3c; }
 
 .navbar-text {
   font-size: 14px; }
@@ -6899,10 +6920,19 @@ big {
   .navbar-text a {
     color: #E04C33; }
 
+.site-footer .menu-primary-container {
+  text-align: center; }
+  .site-footer .menu-primary-container ul {
+    display: inline-block; }
+    .site-footer .menu-primary-container ul li a {
+      color: #fff; }
+
 .site-footer img {
   display: block;
   margin: 0 auto;
-  max-width: 200px; }
+  max-width: 200px;
+  clear: both;
+  padding-top: 15px; }
 
 .wpcf7 {
   font-size: 24px; }
@@ -6923,7 +6953,7 @@ big {
       display: block;
       margin: 0 auto;
       background: #201e3c;
-      padding: 7px 0px;
+      padding: 5px 0px;
       max-width: 400px;
       font-weight: 300; }
       .wpcf7 input.wpcf7-form-control.wpcf7-submit:hover {
@@ -6978,6 +7008,19 @@ big {
     margin: 0 auto;
     padding-top: 30px; } }
 
+.two-step-form .wpcf7 {
+  max-width: 610px;
+  margin: 0 auto; }
+
+.two-step-form .col-6 {
+  padding: 0; }
+
+.icon-grid img {
+  max-width: 100px; }
+
+.icon-grid h4 {
+  padding-top: 18px; }
+
 .pricing-columns .point {
   border-bottom: 2px solid #6d6e70; }
 
@@ -7009,17 +7052,12 @@ big {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-.landing-page .hero h1 {
-  color: #201e3c; }
+.home-page .icon-grid h1 {
+  max-width: 411px;
+  margin: 0 auto; }
 
-.landing-page .hero h3 {
-  color: #6d6e70; }
-
-@media (max-width: 768px) {
-  .landing-page .hero img {
-    display: block;
-    margin: 0 auto;
-    padding-top: 30px; } }
+.home-page .icon-grid p {
+  padding-top: 10px; }
 
 .landing-page .module_5 .container {
   max-width: 730px; }
@@ -7027,11 +7065,11 @@ big {
 .sellers-page .hero h1 {
   max-width: 510px; }
 
-.sellers-page .icon-grid img {
-  max-width: 100px; }
-
-.sellers-page .icon-grid h4 {
-  padding-top: 18px; }
+.sellers-page .contact-form {
+  margin: 0 auto;
+  max-width: 590px; }
+  .sellers-page .contact-form .col-6 {
+    padding: 0; }
 
 .sellers-page .module_5 .container {
   max-width: 730px; }
@@ -7043,7 +7081,56 @@ big {
   padding-top: 18px; }
 
 .buyers-page .module_5 .icon-grid img {
-  max-width: 200px; }
+  max-width: 130px; }
 
 .buyers-page .module_5 .icon-grid h3 {
-  padding: 30px 20px 0 20px; }
+  padding: 23px 20px 0 20px; }
+
+.about-page .equation-graphic .col-sm-2 {
+  padding: 0; }
+
+.about-page .equation-graphic p {
+  font-size: 20px;
+  color: #fff;
+  margin: 8px 0 0 0; }
+  .about-page .equation-graphic p.pink {
+    color: #EE2B64; }
+
+.about-page .equation-graphic span {
+  font-size: 50px;
+  color: #fff; }
+
+.about-page .module_4 {
+  background: url("/wp-content/themes/realioo/images/about/handshake.png") no-repeat center #f0eeed; }
+
+.about-page .contact-form input.wpcf7-form-control {
+  border: 1px solid #f0eeed;
+  padding: 4px 15px; }
+  .about-page .contact-form input.wpcf7-form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #6d6e70; }
+  .about-page .contact-form input.wpcf7-form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #6d6e70; }
+  .about-page .contact-form input.wpcf7-form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #6d6e70; }
+  .about-page .contact-form input.wpcf7-form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #6d6e70; }
+
+.form-page input.wpcf7-form-control {
+  border: 1px solid #f0eeed;
+  padding: 4px 15px; }
+  .form-page input.wpcf7-form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #6d6e70; }
+  .form-page input.wpcf7-form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #6d6e70; }
+  .form-page input.wpcf7-form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #6d6e70; }
+  .form-page input.wpcf7-form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #6d6e70; }

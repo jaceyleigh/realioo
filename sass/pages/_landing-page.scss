@@ -1,21 +1,4 @@
 .landing-page {
-  //these might be global
-  .hero {
-    h1 {
-      color: $realioo_purple;
-    }
-    h3 {
-      color: $grey-text;
-    }
-    img {
-      @media (max-width: breakpoint-min(md)) {
-        display: block;
-        margin: 0 auto;
-        padding-top: 30px;
-      }
-    }
-  }
-
   .module_5 {
     .container {
       max-width: 730px;

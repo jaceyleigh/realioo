@@ -35,17 +35,14 @@
 
 	<header id="masthead" class="site-header">
 		<nav class="navbar container">
-			<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
-				<img src="/wp-content/themes/realioo/images/global/realioo_logo.png"/>
-			</a>
-  <!-- The WordPress Primary Menu -->
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu'
-			) );
-			?>
-		</nav>
+			<a class="navbar-brand" href="<?php echo get_home_url(); ?>"><img src="/wp-content/themes/realioo/images/global/realioo_logo.png"/></a>
+			<div class="navbar-text justify-content-sm-end bold">
+				<p>Connect with us today.</p>
+				<img src="/wp-content/themes/realioo/images/global/phone-icon.png" />
+				<a class="phone-number" href="tel:6124811394">612-481-1394</a>
+			</div>
+</nav>
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

@@ -10,6 +10,13 @@
   }
 }
 
+.white-bg {
+  background: $white;
+  h1, h2, h3, h4, h5, h6, p, label {
+    color: $realioo_purple !important;
+  }
+}
+
 .gradient {
   background: rgb(224,25,82);
   background: linear-gradient(0deg, rgba(224,25,82,1) 0%, rgba(224,45,70,1) 38%, rgba(224,76,51,1) 100%);
