@@ -14,8 +14,8 @@ get_header();
 				<div class="container white-bg pad-70">
 					<div class="row ">
 						<div class="col-12">
-							<h1 class="bold pad-30-bottom text-center">We're searching for your agent.</h2>
-              <h2 class="text-center">Tell us how to contact you with your agent results.</h3>
+							<h1 class="text-center">We're searching for your agent.</h2>
+              <h2 class="pad-30 text-center">Tell us how to contact you with your agent results.</h3>
 							<?php echo do_shortcode( '[contact-form-7 id="340" title="Sellers Page Contact Form 2"]' ); ?>
               <h4 class="text-center">Want immediate help? Connect with us now. (612) 481-1394.</h4>
 						</div>

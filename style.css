@@ -7103,34 +7103,46 @@ big {
 .about-page .module_4 {
   background: url("/wp-content/themes/realioo/images/about/handshake.png") no-repeat center #f0eeed; }
 
-.about-page .contact-form input.wpcf7-form-control {
-  border: 1px solid #f0eeed;
-  padding: 4px 15px; }
-  .about-page .contact-form input.wpcf7-form-control::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: #6d6e70; }
-  .about-page .contact-form input.wpcf7-form-control::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #6d6e70; }
-  .about-page .contact-form input.wpcf7-form-control:-ms-input-placeholder {
-    /* IE 10+ */
-    color: #6d6e70; }
-  .about-page .contact-form input.wpcf7-form-control:-moz-placeholder {
-    /* Firefox 18- */
-    color: #6d6e70; }
+.about-page .contact-form input {
+  color: #6d6e70; }
+  .about-page .contact-form input.wpcf7-form-control {
+    border: 1px solid #f0eeed;
+    padding: 4px 15px; }
+    .about-page .contact-form input.wpcf7-form-control::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #6d6e70; }
+    .about-page .contact-form input.wpcf7-form-control::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #6d6e70; }
+    .about-page .contact-form input.wpcf7-form-control:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #6d6e70; }
+    .about-page .contact-form input.wpcf7-form-control:-moz-placeholder {
+      /* Firefox 18- */
+      color: #6d6e70; }
+    .about-page .contact-form input.wpcf7-form-control.wpcf7-submit {
+      color: #fff; }
 
-.form-page input.wpcf7-form-control {
-  border: 1px solid #f0eeed;
-  padding: 4px 15px; }
-  .form-page input.wpcf7-form-control::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: #6d6e70; }
-  .form-page input.wpcf7-form-control::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #6d6e70; }
-  .form-page input.wpcf7-form-control:-ms-input-placeholder {
-    /* IE 10+ */
-    color: #6d6e70; }
-  .form-page input.wpcf7-form-control:-moz-placeholder {
-    /* Firefox 18- */
-    color: #6d6e70; }
+.form-page form {
+  padding: 0 60px; }
+
+.form-page input {
+  color: #6d6e70; }
+  .form-page input.wpcf7-form-control {
+    border: 1px solid #f0eeed;
+    padding: 4px 15px; }
+    .form-page input.wpcf7-form-control::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #6d6e70; }
+    .form-page input.wpcf7-form-control::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #6d6e70; }
+    .form-page input.wpcf7-form-control:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #6d6e70; }
+    .form-page input.wpcf7-form-control:-moz-placeholder {
+      /* Firefox 18- */
+      color: #6d6e70; }
+    .form-page input.wpcf7-form-control.wpcf7-submit {
+      color: #fff;
+      margin-top: 40px; }
